@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+    color: black;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+
+.span12{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+}
+
+
+.span11{
+    display: flex;
+    gap: 2rem;
+}
+
+.span4{
+    display: flex;
+    justify-content: space-around;
+    
+    margin-right: 2rem;
+    gap: 1rem;
+}
+
+/* .span111{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://assets.telegraphindia.com/telegraph/2020/Nov/1604406623_rims-ranchi.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.span1111{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://lagatar24.com/wp-content/uploads/2022/05/RIMS.jpg);
+    background-repeat: repeat-y;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+} */
+
+.navbar{
+    height: 3rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(#FF6200, #FD7F2C, #FDA766);
+    align-items: center;
+    border: 2px solid #FDA766;
+    border-radius: 5rem;
+    box-shadow:.15rem .15rem red;
+}
+
+.ul{
+    display: flex;
+    gap: 1rem;
+    
+}
+.ul li{
+    list-style-type: none;
+}
+
+.span5{
+    margin-left: 3rem;
+    margin-right: 3rem;
+    background-color: #FDA766;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    border-radius: .5rem;
+}
+
+.hero{
+    margin-left: 3rem;
+    margin-top: 3rem;
+    display: flex;
+    gap: 15rem;
+}
+
+.i1{
+    border-radius: 2rem;
+    width: 20rem;
+}
+
+.sec{
+   display: flex;
+   gap: 2rem;
+}
+
+.txt{
+    padding-top: 3rem;
+}
+
+.pics{
+    display: flex;
+    margin: 3rem;
+    gap: 3rem;
+    justify-content: center;
+}
+
+.pics img{
+    width: 16rem;
+    box-shadow: .3rem .3rem .3rem #563c8f;
+}
+
+.imp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+.line{
+    width: 6rem;
+    height: .3rem;
+    background-color: orange;
+}
+
+.circles{
+    display: flex;
+    margin: 3rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+    
+   
+}
+.circles div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 100%;
+    background-color: #FF6200;
+    border: 2px solid red;
+    /* border-spacing: 2rem; */
+    position: relative;
+}
+
+
+.circles div:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% + 10px);
+    height: calc(100% + 10px);
+    transform: translate(-50%, -50%);
+    border: 2px solid red;
+    content: "";
+    border-radius: 100%;
+  }
+
+.circles div i{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}
+
+.p1{
+    margin-top: 1.5rem;
+    font-weight: bold;
+    color: #FF6200;
+}
+
+.circles span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.merge{
+    display: flex;
+    gap: 3rem;
+    margin: 3rem;
+    justify-content: space-between;
+}
+.l1{
+    /* background-color: antiquewhite; */
+    list-style-type: none;
+    cursor: pointer;
+}
+
+.row-fluid{
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem;
+}
+
